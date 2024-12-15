@@ -9,7 +9,6 @@
     tools:context=".GameActivity">
 
     <TextView
-        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -21,21 +20,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/game_status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:width="200dp"
-        android:background="#80FFFFFF"
-        android:padding="10dp"
-        android:text="@string/game_status_x_turn"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tile_8" />
 
     <ImageButton
         android:id="@+id/tile_1"
@@ -124,5 +108,32 @@
         android:contentDescription="@string/game_tile_9"
         app:layout_constraintStart_toEndOf="@+id/tile_8"
         app:layout_constraintTop_toBottomOf="@+id/tile_6" />
+
+    <TextView
+        android:id="@+id/game_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:width="200dp"
+        android:background="#80FFFFFF"
+        android:padding="10dp"
+        android:text="@string/game_status_x_turn"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tile_8" />
+
+    <Button
+        android:id="@+id/game_play_again_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:width="150dp"
+        android:text="@string/game_play_again_button"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_status" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

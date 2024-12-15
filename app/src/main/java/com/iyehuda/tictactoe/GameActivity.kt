@@ -1,6 +1,7 @@
 package com.iyehuda.tictactoe
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -11,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 class GameActivity : AppCompatActivity() {
     private val game = TicTacToeGame()
     private lateinit var gameStatus: TextView
+    private lateinit var playAgainButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +25,7 @@ class GameActivity : AppCompatActivity() {
         }
 
         gameStatus = findViewById(R.id.game_status)
+        playAgainButton = findViewById(R.id.game_play_again_button)
         setupTiles()
     }
 
@@ -51,6 +54,7 @@ class GameActivity : AppCompatActivity() {
 
         if (game.hasFinished()) {
             updateWhoWon()
+            showPlayAgainButton()
         } else {
             updateWhoPlays()
         }
@@ -79,6 +83,13 @@ class GameActivity : AppCompatActivity() {
             Player.X -> getString(R.string.game_status_x_won)
             Player.O -> getString(R.string.game_status_o_won)
             Player.NONE -> getString(R.string.game_status_tie)
+        }
+    }
+
+    private fun showPlayAgainButton() {
+        playAgainButton.visibility = Button.VISIBLE
+        playAgainButton.setOnClickListener {
+            finish()
         }
     }
 }
