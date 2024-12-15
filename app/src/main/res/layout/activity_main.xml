@@ -15,6 +15,7 @@
         android:background="#80FFFFFF"
         android:padding="10dp"
         android:text="@string/app_name"
+        android:textAlignment="center"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/main_start_button"
         app:layout_constraintEnd_toEndOf="parent"

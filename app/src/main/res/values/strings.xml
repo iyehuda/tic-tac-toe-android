@@ -10,4 +10,7 @@
     <string name="game_tile_7">Bottom left tile</string>
     <string name="game_tile_8">Bottom tile</string>
     <string name="game_tile_9">Bottom right tile</string>
+    <string name="game_status_x_turn">Player X\'s turn</string>
+    <string name="game_status_y_turn">Player Y\'s turn</string>
+    <string name="game_status_tie">It\'s a tie</string>
 </resources>
