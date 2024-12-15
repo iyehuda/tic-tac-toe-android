@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/game_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -41,7 +41,7 @@
         android:id="@+id/tile_1"
         android:layout_width="110dp"
         android:layout_height="110dp"
-        android:background="@drawable/x_tile"
+        android:background="@drawable/tile"
         android:contentDescription="@string/game_tile_1"
         app:layout_constraintBottom_toTopOf="@+id/tile_4"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,7 +51,7 @@
         android:id="@+id/tile_2"
         android:layout_width="110dp"
         android:layout_height="110dp"
-        android:background="@drawable/o_tile"
+        android:background="@drawable/tile"
         android:contentDescription="@string/game_tile_2"
         app:layout_constraintBottom_toTopOf="@+id/tile_5"
         app:layout_constraintEnd_toEndOf="parent"
