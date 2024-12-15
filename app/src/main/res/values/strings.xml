@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
     <string name="main_start_button">Start</string>
+    <string name="game_tile_1">Upper left tile</string>
+    <string name="game_tile_2">Upper tile</string>
+    <string name="game_tile_3">Upper right tile</string>
+    <string name="game_tile_4">Left tile</string>
+    <string name="game_tile_5">Center tile</string>
+    <string name="game_tile_6">Right tile</string>
+    <string name="game_tile_7">Bottom left tile</string>
+    <string name="game_tile_8">Bottom tile</string>
+    <string name="game_tile_9">Bottom right tile</string>
 </resources>

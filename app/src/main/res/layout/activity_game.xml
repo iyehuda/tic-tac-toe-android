@@ -20,4 +20,93 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tile_1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/tile"
+        android:contentDescription="@string/game_tile_1"
+        app:layout_constraintBottom_toTopOf="@+id/tile_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tile_2" />
+
+    <ImageButton
+        android:id="@+id/tile_2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/tile"
+        android:contentDescription="@string/game_tile_2"
+        app:layout_constraintBottom_toTopOf="@+id/tile_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tile_3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/tile"
+        android:contentDescription="@string/game_tile_3"
+        app:layout_constraintBottom_toTopOf="@+id/tile_6"
+        app:layout_constraintStart_toEndOf="@+id/tile_2" />
+
+    <ImageButton
+        android:id="@+id/tile_4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/tile"
+        android:contentDescription="@string/game_tile_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tile_5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tile_5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/tile"
+        android:contentDescription="@string/game_tile_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tile_6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/tile"
+        android:contentDescription="@string/game_tile_6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tile_5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tile_7"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/tile"
+        android:contentDescription="@string/game_tile_7"
+        app:layout_constraintEnd_toStartOf="@+id/tile_8"
+        app:layout_constraintTop_toBottomOf="@+id/tile_4" />
+
+    <ImageButton
+        android:id="@+id/tile_8"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/tile"
+        android:contentDescription="@string/game_tile_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tile_5" />
+
+    <ImageButton
+        android:id="@+id/tile_9"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/tile"
+        android:contentDescription="@string/game_tile_9"
+        app:layout_constraintStart_toEndOf="@+id/tile_8"
+        app:layout_constraintTop_toBottomOf="@+id/tile_6" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
